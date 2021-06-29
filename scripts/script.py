@@ -2,10 +2,10 @@ import pandas as pd
 from Bio import Entrez
 from Bio import Medline
 from Bio.Entrez import efetch, read
-import os
+from os import path, mkdir
 import json
 
-def search(query, retmax = 100):
+def search(query, retmax = 10):
     Entrez.email = 'ex.aa@mail.edu'
     handle = Entrez.esearch(db='pubmed', 
                             sort='relevance', 
@@ -43,14 +43,28 @@ def artical_parser(document):
     return parsed_document
 
 
-def medline_parser(documents, path_for_saved_document='data/'):
+def medline_parser(documents, path_for_saved_document):
     for document in documents:
         pmid = document['PMID']
         document_dictionary = artical_parser(document)
         with open(f'{path_for_saved_document}{pmid}.json', "w") as file:
             json.dump(document_dictionary,file)
 
-def main(search_term):
+def main(search_term, path_for_saved_document='data/'):
+    PATH = f'{path_for_saved_document}/json'
+    PATH2 = f'{path_for_saved_document}/json/{search_term}/'
+
+    if path.exists(PATH):
+        print(f'Path {PATH} Exist')
+    else:
+        mkdir(PATH)
+
+    if path.exists(PATH2):
+        print(f'Path {PATH2} Exist')
+    else:
+        mkdir(PATH2)
+
+
     pmids = search(search_term)
     fetche_pubmeds = fetch_pubmed(pmids)
-    medline_parser(fetche_pubmeds)
+    medline_parser(fetche_pubmeds,path_for_saved_document = PATH2)
