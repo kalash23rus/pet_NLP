@@ -8,3 +8,15 @@ wget https://ftp.ncbi.nlm.nih.gov/pub/lu/PubTatorCentral/cellline2pubtatorcentra
 wget https://ftp.ncbi.nlm.nih.gov/pub/lu/PubTatorCentral/bioconcepts2pubtatorcentral.gz
 wget https://ftp.ncbi.nlm.nih.gov/pub/lu/PubTatorCentral/README.txt
 wget https://ftp.ncbi.nlm.nih.gov/pub/lu/PubTatorCentral/AvailablePMIDsinPubTator.txt
+
+# pubtator PubTatorCentral_BioCXML
+https://ftp.ncbi.nlm.nih.gov/pub/lu/PubTatorCentral/PubTatorCentral_BioCXML/BioCXML.0.tar
+https://ftp.ncbi.nlm.nih.gov/pub/lu/PubTatorCentral/PubTatorCentral_BioCXML/BioCXML.1.tar
+https://ftp.ncbi.nlm.nih.gov/pub/lu/PubTatorCentral/PubTatorCentral_BioCXML/BioCXML.2.tar
+https://ftp.ncbi.nlm.nih.gov/pub/lu/PubTatorCentral/PubTatorCentral_BioCXML/BioCXML.3.tar
+https://ftp.ncbi.nlm.nih.gov/pub/lu/PubTatorCentral/PubTatorCentral_BioCXML/BioCXML.4.tar
+https://ftp.ncbi.nlm.nih.gov/pub/lu/PubTatorCentral/PubTatorCentral_BioCXML/BioCXML.5.tar
+https://ftp.ncbi.nlm.nih.gov/pub/lu/PubTatorCentral/PubTatorCentral_BioCXML/BioCXML.6.tar
+https://ftp.ncbi.nlm.nih.gov/pub/lu/PubTatorCentral/PubTatorCentral_BioCXML/BioCXML.7.tar
+https://ftp.ncbi.nlm.nih.gov/pub/lu/PubTatorCentral/PubTatorCentral_BioCXML/BioCXML.8.tar
+https://ftp.ncbi.nlm.nih.gov/pub/lu/PubTatorCentral/PubTatorCentral_BioCXML/BioCXML.9.tar
