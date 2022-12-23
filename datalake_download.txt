@@ -20,3 +20,9 @@ https://ftp.ncbi.nlm.nih.gov/pub/lu/PubTatorCentral/PubTatorCentral_BioCXML/BioC
 https://ftp.ncbi.nlm.nih.gov/pub/lu/PubTatorCentral/PubTatorCentral_BioCXML/BioCXML.7.tar
 https://ftp.ncbi.nlm.nih.gov/pub/lu/PubTatorCentral/PubTatorCentral_BioCXML/BioCXML.8.tar
 https://ftp.ncbi.nlm.nih.gov/pub/lu/PubTatorCentral/PubTatorCentral_BioCXML/BioCXML.9.tar
+
+# LitVar
+wget https://ftp.ncbi.nlm.nih.gov/pub/lu/LitVar/litvar_variants.json
+wget https://ftp.ncbi.nlm.nih.gov/pub/lu/LitVar/litvar2_variants.json
+wget https://ftp.ncbi.nlm.nih.gov/pub/lu/LitVar/litvar.zip
+wget https://ftp.ncbi.nlm.nih.gov/pub/lu/LitVar/README.txt
