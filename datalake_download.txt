@@ -26,3 +26,6 @@ wget https://ftp.ncbi.nlm.nih.gov/pub/lu/LitVar/litvar_variants.json
 wget https://ftp.ncbi.nlm.nih.gov/pub/lu/LitVar/litvar2_variants.json
 wget https://ftp.ncbi.nlm.nih.gov/pub/lu/LitVar/litvar.zip
 wget https://ftp.ncbi.nlm.nih.gov/pub/lu/LitVar/README.txt
+
+# PMC
+https://ftp.ncbi.nlm.nih.gov/pub/pmc/
