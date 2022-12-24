@@ -29,3 +29,6 @@ wget https://ftp.ncbi.nlm.nih.gov/pub/lu/LitVar/README.txt
 
 # PMC
 https://ftp.ncbi.nlm.nih.gov/pub/pmc/
+https://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_bulk/oa_comm/xml/
+wget https://ftp.ncbi.nlm.nih.gov/pub/pmc/PMC-ids.csv.gz
+wget https://ftp.ncbi.nlm.nih.gov/pub/pmc/readme.txt
